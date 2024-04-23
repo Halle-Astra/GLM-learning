@@ -6,16 +6,16 @@ You can execute
 `python cp_wudao.py <num>`
 to copy <num> files to `/dataset/fd5061f6/chinese_data/WuDao_processed` in docker container.
 
-This script can help you make a toy dataset to debug and learning the whole pipeline of GLM.
+This script can help you make a toy dataset to debug and learn the whole pipeline of [GLM](https://github.com/THUDM/GLM).
 
 If your WuDao dataset is downloaded from [BAAI data platform](https://data.baai.ac.cn/data), you need run 
 `python process_wudao.py` to transform the original format into the format satisfied for `pretrain_glm.py`.
 
-## Notes & Dairy
+## Notes & Diary
 
 ### Hardware
 
-I explore this project by myself with my own homelab:
+I explored this project by myself with my own homelab:
 
 1. Machine1:
     1. annoymous motherboard with name X99M-G2
@@ -47,13 +47,13 @@ It's really hard to build a distributed system for deepspeed and NCCL, so that I
 The exploring details for system building can be found in [my article on zhihu](https://zhuanlan.zhihu.com/p/692657719).
 
 
-### Dairy 
+### Diary 
 
 Other records during my exploring also can be found in [my record on zhihu](https://zhuanlan.zhihu.com/p/693793952). It will be updated for long. 
     
 ### Notes 
 
-`GLM代码分析.png` is note of analyzing the pretrain of GLM, especially the relevant code of lazy loader and scatter loader. 
-It will help you know the difference between running `pretrain_glm.py` on one machine and more machines.
+`GLM代码分析.png` is note of analyzing the pretraining of GLM, especially the relevant code of lazy loader and scatter loader. 
+It will help you understand the difference between running `pretrain_glm.py` on one machine and more machines.
 
-![](GLM代码分析.png)
+![GLM code analyzing](GLM代码分析.png)
