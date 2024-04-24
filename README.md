@@ -35,7 +35,7 @@ I explored this project by myself with my own homelab:
     3. RTX 2080Ti 22G * 1
     4. 48G Memory 
     5. Ubuntu 20.04 LTS
-4. Machine4 (is not enabled):
+4. Machine4 (wait to be enabled):
     1. ASUS Z9ped8-ws 
     2. Xeon E5 2670v2 * 2
     3. 16G Memory (will be extended)
